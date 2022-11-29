@@ -1,14 +1,10 @@
+function MainContent() {
+  return <h1>I'm Learning React!</h1>;
+}
+
 ReactDOM.render(
-  <ul>
-    <li>
-      <h1>1</h1>
-    </li>
-    <li>
-      <h1>2</h1>
-    </li>
-    <li>
-      <h1>3</h1>
-    </li>
-  </ul>,
+  <div>
+    <MainContent />
+  </div>,
   document.getElementById("root")
 );
