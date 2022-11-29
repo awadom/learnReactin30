@@ -1,14 +1,15 @@
 import ReactDOM from "react-dom";
-import React from "react";
+
 const page = (
   <div>
-    <h1>My awesome website in React</h1>
-    <h3>Why I love React</h3>
+    <img src="logo192.png" alt="" width="40px" />
+    <h1>Fun facts about React</h1>
     <ul>
-      <li>It's Compostable</li>
-      <li>It's Declarative</li>
-      <li>It's a Hireable Skill</li>
-      <li>It's Actively Maintained by Skilled People</li>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100k stars on Github</li>
+      <li>Is maintained by Meta</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
   </div>
 );
