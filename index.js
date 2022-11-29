@@ -10,5 +10,5 @@ ReactDOM.render(
       <h1>3</h1>
     </li>
   </ul>,
-document.getElementById("root")
-)
+  document.getElementById("root")
+);
