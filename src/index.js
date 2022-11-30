@@ -13,5 +13,5 @@ const page = (
     </ul>
   </div>
 );
-
+console.log(page);
 ReactDOM.render(page, document.getElementById("root"));
