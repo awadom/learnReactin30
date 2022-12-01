@@ -1,13 +1,19 @@
 import ReactDOM from "react-dom";
 
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src="logo192.png" alt="" width="50px"></img>
+      </nav>
+    </header>
+  );
+}
+
 function Component() {
   return (
     <>
-      <header>
-        <nav>
-          <img src="logo192.png" alt="" width="50px"></img>
-        </nav>
-      </header>
+      <Header />
       <h1>Why I want to learn React:</h1>
       <ol>
         <li>To increase my development knowledge</li>
