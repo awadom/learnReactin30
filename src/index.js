@@ -1,17 +1,24 @@
 import ReactDOM from "react-dom";
 
-const page = (
-  <div>
-    <img src="logo192.png" alt="" width="40px" />
-    <h1>Fun facts about React</h1>
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was originally created by Jordan Walke</li>
-      <li>Has well over 100k stars on Github</li>
-      <li>Is maintained by Meta</li>
-      <li>Powers thousands of enterprise apps, including mobile apps</li>
-    </ul>
-  </div>
-);
-console.log(page);
-ReactDOM.render(page, document.getElementById("root"));
+function Component() {
+  return (
+    <>
+      <header>
+        <nav>
+          <img src="logo192.png" alt="" width="50px"></img>
+        </nav>
+      </header>
+      <h1>Why I want to learn React:</h1>
+      <ol>
+        <li>To increase my development knowledge</li>
+        <li>To build my app</li>
+        <li>for fun!</li>
+      </ol>
+      <footer>
+        <small>c 2022 Awad development. All rights reserved.</small>
+      </footer>
+    </>
+  );
+}
+
+ReactDOM.render(<Component />, document.getElementById("root"));
