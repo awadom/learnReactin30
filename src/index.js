@@ -36,11 +36,11 @@ function Footer() {
 }
 function Component() {
   return (
-    <body className="component">
+    <main>
       <Header />
       <Content />
       <Footer />
-    </body>
+    </main>
   );
 }
 

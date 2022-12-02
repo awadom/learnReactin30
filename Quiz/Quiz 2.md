@@ -4,6 +4,7 @@ Quiz 2!
    My answer:
    a reusable function.
    Exempler:
+   A function that returns react elements. (UI)
 
 2. What's wrong with this code?
 
@@ -16,8 +17,9 @@ function myComponent() {
 ```
 
 My answer:
-component name needs to be pascal case instead of camel case.
+Component name needs to be pascal case instead of camel case.
 Exempler:
+Correct!
 
 3. What's wrong with this code?
 
@@ -38,3 +40,4 @@ ReactDOM.render(Header(), document.getElementById("root"))
 My answer:
 in reactdom.render the function name needs to be the function name written as a component <Header />.
 Exempler:
+Correct!

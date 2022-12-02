@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
 
-body {
+main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -34,5 +34,5 @@ body {
   margin-top: auto;
   color: white;
   background-color: lightblue;
-  padding: 20px;
+  padding: 20px 0px 20px 20px;
 }
