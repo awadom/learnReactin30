@@ -1,14 +1,11 @@
-import "./index.css";
-import Header from "./Header";
-import Content from "./Content";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main.js";
 
 export default function App() {
   return (
-    <main>
-      <Header />
-      <Content />
-      <Footer />
-    </main>
+    <div className="container">
+      <Navbar />
+      <Main />
+    </div>
   );
 }
